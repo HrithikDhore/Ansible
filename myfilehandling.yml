@@ -35,5 +35,5 @@
   - name: startwebserver
     service:
        name: apache2
-       state: present
+       state: restarted
     
